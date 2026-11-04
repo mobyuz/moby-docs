@@ -1,0 +1,16 @@
+{
+  "name": "moby-docs",
+  "version": "0.0.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "Plan, decision records and compatibility table for the Moby project.",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\"",
+    "links": "node scripts/check-links.mjs",
+    "check": "npm run lint && npm run links"
+  },
+  "devDependencies": {
+    "markdown-link-check": "3.15.0",
+    "markdownlint-cli2": "0.24.0"
+  }
+}

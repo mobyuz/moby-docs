@@ -1,0 +1,10 @@
+{
+  // plan/ is a faithful conversion of the owner's docx. It is not reformatted.
+  "ignores": ["node_modules/**", "plan/**"],
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
+  }
+}
